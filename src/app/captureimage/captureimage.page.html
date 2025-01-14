@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="color: white;">Image Capture</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="capture-page">
+  <ion-card style="box-shadow: none;">
+
+    <div class="canvas-container">
+      <canvas #canvasElement></canvas>
+    </div>
+
+   
+    
+      <ion-input label="Width" labelPlacement="floating" type="number" fill="outline" [(ngModel)]="exportWidth" ></ion-input>
+        
+      <ion-input label="Height" labelPlacement="floating" type="number" fill="outline" [(ngModel)]="exportHeight" ></ion-input>
+   
+
+    <div class="button-group">
+      <ion-button expand="block" (click)="addImage()" class="img-button">Add Image</ion-button>
+      <ion-button expand="block" (click)="exportImage()">Export</ion-button>
+    </div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "diatoz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

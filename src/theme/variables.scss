@@ -1,0 +1,31 @@
+:root {
+  /* Primary Colors */
+  --ion-color-primary: #4CAF93; /* Soft Green */
+  --ion-color-primary-light: #80D4B8; /* Light Mint */
+  --ion-color-primary-dark: #357A63; /* Deep Green */
+  
+  /* Accent Color */
+  --ion-color-accent: #FFD54F; /* Muted Yellow */
+  
+  /* Background Colors */
+  --ion-background-color-light: #FAFAFA; /* Bright White */
+  --ion-background-color-dark: #2E3B4E; /* Slate Blue */
+  
+  /* Text Colors */
+  --ion-text-color-light: #333333; /* Charcoal */
+  --ion-text-color-dark: #E0E0E0; /* Pale Gray */
+  
+  /* Button Colors */
+  --ion-color-success: var(--ion-color-primary);
+  --ion-color-warning: var(--ion-color-accent);
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: var(--ion-background-color-dark);
+    --ion-text-color: var(--ion-text-color-dark);
+    --ion-color-primary: var(--ion-color-primary-dark);
+  }
+}
