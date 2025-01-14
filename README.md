@@ -25,8 +25,8 @@ This is an **Ionic Angular** application that allows users to capture an image, 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/canvas-image-export.git
-   cd canvas-image-export
+   git clone https://github.com/gokulpommi/imagecapture.git
+   cd imagecapture
 
 2. Install Dependencies:
 
